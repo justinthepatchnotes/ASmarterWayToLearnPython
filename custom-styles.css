@@ -1,0 +1,12 @@
+/* Apply Dancing Bacon font to Python keywords */
+span.token.keyword.control.python,
+span.token.keyword.declaration.python,
+span.token.keyword.other.python {
+    font-family: 'Dancing Bacon', sans-serif !important;
+}
+
+/* Apply Pacifico font to other Python keywords */
+span.token.keyword.control.conditional.python,
+span.token.keyword.operator.python {
+    font-family: 'Pacifico', sans-serif !important;
+}
